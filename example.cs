@@ -4,10 +4,14 @@ public class Example
 {
 	private String name;
 
-	public Example(String Name)
+	public Example(String name)
 	{
-		this.name = Name;
+		this.getName(name);
 	}
 
+	public getName(String name)
+	{
+		this.name = name;
+	}
 }
 
