@@ -7,9 +7,13 @@ public class Example
 
 	public Example(String Name, int age)
 	{
-		this.name = Name;
-		this.age  = age ;
+		this.getName(name);
+		this.age = age;
 	}
 
+	public getName(String name)
+	{
+		this.name = name;
+	}
 }
 
